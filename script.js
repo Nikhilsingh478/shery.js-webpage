@@ -13,7 +13,7 @@ elems.forEach(function(elem){
         gsap.to(h1s[index], {
             top: '-=100%',
             ease: Expo.easeInOut,
-            duration: 1,
+            duration: 0.65,
             onComplete: function () {
                 gsap.set(this._targets[0], { top: "100%" });
                 animating = false;
