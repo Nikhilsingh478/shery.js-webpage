@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Kajiro';
-    src: url('kajiro.ttf') format('truetype');
+    src: url('Kajiro.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -114,7 +114,7 @@ html {
     top: 100%;
     left: 0;
     line-height: 0.9;
-    font-family: "kajiro";
+    font-family: "Kajiro";
     color: #fff;
     font-weight: 100;
     font-size: 11vw;
