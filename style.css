@@ -13,8 +13,8 @@
 
 @font-face {
        font-family: 'Kajiro';
-       src: url('/path/to/fonts/kajiro.woff2') format('woff2'),
-            url('/path/to/fonts/kajiro.woff') format('woff');
+       src: url('Kajiro.woff2') format('woff2'),
+            url('kajiro.woff') format('woff');
        font-weight: normal;
        font-style: normal;
    }
