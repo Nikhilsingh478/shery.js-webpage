@@ -25,7 +25,7 @@ elems.forEach(function(elem){
         gsap.to(h1s[index], {
             top: '-=100%',
             ease: Expo.easeInOut,
-            duration: 1,
+            duration: 1.2,
         });
 
        }    });   
