@@ -158,3 +158,103 @@ html {
     background-position: center;
     margin-bottom: 10px;
 }
+
+/* =========================
+   MOBILE RESPONSIVE
+========================= */
+
+@media (max-width: 768px) {
+
+    #workingarea {
+        width: 92%;
+    }
+
+    #nav {
+        padding: 20px 0;
+    }
+
+    #nleft, #nright {
+        gap: 20px;
+    }
+
+    #nleft img {
+        height: 40px;
+    }
+
+    #nav a {
+        font-size: 12px;
+    }
+
+    #hero {
+        flex-direction: column;
+        top: 55%;
+        transform: translateY(-50%);
+    }
+
+    #heroleft {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    #heroleft .elem {
+        height: 14vw;
+    }
+
+    #heroleft .elem h1 {
+        font-size: 14vw;
+    }
+
+    #heroleft button {
+        font-size: 6vw;
+        padding: 2vw 6vw;
+        margin-top: 4vw;
+    }
+
+    #heroright {
+        position: relative;
+        width: 100%;
+        top: auto;
+        right: auto;
+        margin-top: 30px;
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    #heroright p {
+        text-align: left;
+        font-size: 13px;
+    }
+
+    #heroright #imagediv {
+        height: 150px;
+    }
+}
+
+
+/* =========================
+   SMALL PHONES
+========================= */
+
+@media (max-width: 480px) {
+
+    #heroleft .elem {
+        height: 16vw;
+    }
+
+    #heroleft .elem h1 {
+        font-size: 16vw;
+    }
+
+    #heroleft button {
+        font-size: 7vw;
+    }
+
+    #nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    #nright {
+        gap: 15px;
+    }
+}
